@@ -6,11 +6,11 @@ Apache 2.0.
 Créé à partir d'un modèle du commerce réalisé en bois. Un ensemble de pièces
 peuvent former un cube plein quand elles sont correctement agencées.
 
-* [Source OpenSCAD](cube.scad)
-* [Fichier STL](cube.stl)
+* [Cube - Source OpenSCAD](cube.scad)
+* [Cube - Fichier STL](cube.stl)
 
 ## Lock 12
 Un assemblage de 12 pièces qui semblent se bloquer toutes.
-* [Source OpenSCAD](blob/main/lock-12.scad)
-* ![Source STL](blob/main/lock-12.stl)
+* [Lock 12 - Source OpenSCAD](lock-12.scad)
+* [Lock 12 - Source STL](lock-12.stl)
 
