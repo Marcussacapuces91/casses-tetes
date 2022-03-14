@@ -7,7 +7,7 @@ module base(u) {
 }
 
 module un(u) {
-    difference() {
+    color("red") difference() {
         base(u);
         translate([0,0,0.75*u]) cube([4*u,2.5*u,1.5*u], center=true);
         translate([-0.5*u,0.75*u,-0.5*u]) cube([1*u,1.5*u,1.5*u], center=true);
@@ -15,7 +15,7 @@ module un(u) {
 }
 
 module deux(u) {
-    difference() {
+    color("green") difference() {
         base(u);
         translate([0,0,0.75*u]) cube([4*u,2.5*u,1.5*u], center=true);
         translate([0*u,0.75*u,-0.5*u]) cube([2*u,1.5*u,1.5*u], center=true);
@@ -23,7 +23,7 @@ module deux(u) {
 }
 
 module trois(u) {
-    difference() {
+    color("blue") difference() {
         base(u);
         translate([0,u,0.75*u]) cube([4*u,2*u,1.5*u], center=true);
         translate([1*u,0.75*u,-0.5*u]) cube([2*u,1.5*u,1.5*u], center=true);
@@ -32,7 +32,7 @@ module trois(u) {
 }
 
 module quatre(u) {
-    difference() {
+    color("blue") difference() {
         base(u);
         translate([-u,0,0.75*u]) cube([2*u,2.5*u,1.5*u], center=true);
         translate([1.5*u,0,0.75*u]) cube([1*u,2.5*u,1.5*u], center=true);
@@ -40,7 +40,7 @@ module quatre(u) {
 }
 
 module cinq(u) {
-    difference() {
+    color("green") difference() {
         base(u);
         translate([0,0,0.75*u]) cube([2*u,2.5*u,1.5*u], center=true);
         translate([-1*u,0.75*u,0]) cube([2*u,1.5*u,2.5*u], center=true);
@@ -48,7 +48,7 @@ module cinq(u) {
 }
 
 module six(u) {
-    base(u);
+    color("red") base(u);
 }
 
 translate([0,11,0]) six(10);
